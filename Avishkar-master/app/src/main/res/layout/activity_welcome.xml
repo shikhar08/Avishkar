@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/welcome"
+    android:background="@drawable/checking"
+    tools:context="com.example.srishtishikhar.appointmentmanager.Welcome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="35dp"/>
+    <!--<TextView-->
+        <!--android:id="@+id/editText2"-->
+        <!--android:textSize="26dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:ems="10"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:text="Doc at your knock"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginStart="21dp"-->
+        <!--android:layout_marginBottom="242dp" />-->
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="319dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/man"
+
+        />
+
+
+</RelativeLayout>

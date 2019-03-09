@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abcd"
+    android:orientation="vertical"
+    tools:context=".FinalAppointmentPage">
+
+    <RelativeLayout
+        android:background="#000000"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/icons"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:src = "@drawable/work" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:ems="10"
+            android:hint="Appointment Number"
+            android:inputType="textPersonName"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="63dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/editText2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText"
+            android:layout_centerHorizontal="true"
+            android:hint="Appointment Time"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:inputType="time" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Confirm Appointment"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="293dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Cancel Appointment"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="378dp" />
+    </RelativeLayout>
+</RelativeLayout>

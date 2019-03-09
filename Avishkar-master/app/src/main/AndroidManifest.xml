@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srishtishikhar.appointmentmanager">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".LoginasDoctor" />
+        <activity android:name=".LoginasPatient" />
+        <activity android:name=".NewDoctor" />
+        <activity android:name=".NewPatient" />
+        <activity android:name=".DoctorHomepage" />
+        <activity android:name=".afterSignUp" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB0rOoUiybPiQ-FmD4HmHy4j_QQUKNdP1s" />
+
+        <activity android:name=".FinalAppointmentPage" />
+        <activity android:name=".confirmationActivity" />
+        <activity android:name=".delayPage"></activity>
+    </application>
+
+</manifest>

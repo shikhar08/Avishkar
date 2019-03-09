@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "708163945669",
+    "firebase_url": "https://shivani-723bb.firebaseio.com",
+    "project_id": "shivani-723bb",
+    "storage_bucket": "shivani-723bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708163945669:android:838e0332a3d2068a",
+        "android_client_info": {
+          "package_name": "com.example.srishtishikhar.appointmentmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708163945669-sg4n9n2lsku199ubusrls0759sale988.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.srishtishikhar.appointmentmanager",
+            "certificate_hash": "5a6c3b75d39c99df877b9bcd9f575f0b06584810"
+          }
+        },
+        {
+          "client_id": "708163945669-oeoqobudum8cjb7v1lsnvmn38ojeqmn8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPndwAqI1CrGrznnonpVn4WAR-7eCaT2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708163945669-oeoqobudum8cjb7v1lsnvmn38ojeqmn8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
